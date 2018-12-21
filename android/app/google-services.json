@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1007253939242",
+    "firebase_url": "https://beka-the-bulldog.firebaseio.com",
+    "project_id": "beka-the-bulldog",
+    "storage_bucket": "beka-the-bulldog.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1007253939242:android:41e373eb5b6e03cd",
+        "android_client_info": {
+          "package_name": "com.bekathebulldog.bekathebulldog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1007253939242-g7irlkdg9lngeaf9ic2mclvfd9ktpcno.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmeKAEYf6JuyC_1rJmwoPqcKeQsa5SppY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

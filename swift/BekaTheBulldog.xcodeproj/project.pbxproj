@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		323A1D491D637792001538F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323A1D481D637792001538F9 /* AppDelegate.swift */; };
+		323A1D4B1D637792001538F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323A1D4A1D637792001538F9 /* ViewController.swift */; };
+		323A1D4E1D637792001538F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 323A1D4C1D637792001538F9 /* Main.storyboard */; };
+		323A1D501D637792001538F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 323A1D4F1D637792001538F9 /* Assets.xcassets */; };
+		323A1D531D637792001538F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 323A1D511D637792001538F9 /* LaunchScreen.storyboard */; };
+		323A1D5B1D656301001538F9 /* InteractiveStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323A1D5A1D656301001538F9 /* InteractiveStory.swift */; };
+		325133161D6D695D0046B6F2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 325133151D6D695D0046B6F2 /* GoogleService-Info.plist */; };
+		32A40F181D661C0E000F8914 /* PageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A40F171D661C0E000F8914 /* PageController.swift */; };
+		603F2A36A645933C1F0B1288 /* Pods_BekaTheBulldog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 026DADDAE182F651F7481946 /* Pods_BekaTheBulldog.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		026DADDAE182F651F7481946 /* Pods_BekaTheBulldog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BekaTheBulldog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		323A1D451D637792001538F9 /* BekaTheBulldog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BekaTheBulldog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		323A1D481D637792001538F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		323A1D4A1D637792001538F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		323A1D4D1D637792001538F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		323A1D4F1D637792001538F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		323A1D521D637792001538F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		323A1D541D637792001538F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		323A1D5A1D656301001538F9 /* InteractiveStory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractiveStory.swift; sourceTree = "<group>"; };
+		325133151D6D695D0046B6F2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		32A40F171D661C0E000F8914 /* PageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageController.swift; sourceTree = "<group>"; };
+		B8943EED82186BCF60B364C1 /* Pods-BekaTheBulldog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BekaTheBulldog.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BekaTheBulldog/Pods-BekaTheBulldog.debug.xcconfig"; sourceTree = "<group>"; };
+		C4547900ECE5F5FF044CB4F0 /* Pods-BekaTheBulldog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BekaTheBulldog.release.xcconfig"; path = "Pods/Target Support Files/Pods-BekaTheBulldog/Pods-BekaTheBulldog.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		323A1D421D637792001538F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				603F2A36A645933C1F0B1288 /* Pods_BekaTheBulldog.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		323A1D3C1D637792001538F9 = {
+			isa = PBXGroup;
+			children = (
+				323A1D471D637792001538F9 /* BekaTheBulldog */,
+				323A1D461D637792001538F9 /* Products */,
+				A6A3CF04E61C298F41C851DC /* Pods */,
+				345169CFB03EB8D020222704 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		323A1D461D637792001538F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				323A1D451D637792001538F9 /* BekaTheBulldog.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		323A1D471D637792001538F9 /* BekaTheBulldog */ = {
+			isa = PBXGroup;
+			children = (
+				323A1D481D637792001538F9 /* AppDelegate.swift */,
+				323A1D4A1D637792001538F9 /* ViewController.swift */,
+				32A40F171D661C0E000F8914 /* PageController.swift */,
+				323A1D5A1D656301001538F9 /* InteractiveStory.swift */,
+				323A1D4C1D637792001538F9 /* Main.storyboard */,
+				323A1D4F1D637792001538F9 /* Assets.xcassets */,
+				323A1D511D637792001538F9 /* LaunchScreen.storyboard */,
+				323A1D541D637792001538F9 /* Info.plist */,
+				325133151D6D695D0046B6F2 /* GoogleService-Info.plist */,
+			);
+			path = BekaTheBulldog;
+			sourceTree = "<group>";
+		};
+		345169CFB03EB8D020222704 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				026DADDAE182F651F7481946 /* Pods_BekaTheBulldog.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6A3CF04E61C298F41C851DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B8943EED82186BCF60B364C1 /* Pods-BekaTheBulldog.debug.xcconfig */,
+				C4547900ECE5F5FF044CB4F0 /* Pods-BekaTheBulldog.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		323A1D441D637792001538F9 /* BekaTheBulldog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 323A1D571D637792001538F9 /* Build configuration list for PBXNativeTarget "BekaTheBulldog" */;
+			buildPhases = (
+				CF9F0E1494E55F9BA3F413F5 /* [CP] Check Pods Manifest.lock */,
+				323A1D411D637792001538F9 /* Sources */,
+				323A1D421D637792001538F9 /* Frameworks */,
+				323A1D431D637792001538F9 /* Resources */,
+				7F8FC2F8E5EF98AC518CB292 /* [CP] Embed Pods Frameworks */,
+				4B4568F055BF4518CA2B29F7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BekaTheBulldog;
+			productName = BekaTheBulldog;
+			productReference = 323A1D451D637792001538F9 /* BekaTheBulldog.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		323A1D3D1D637792001538F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Esteban Wesson";
+				TargetAttributes = {
+					323A1D441D637792001538F9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 4NGU8NN8YK;
+						LastSwiftMigration = 0800;
+					};
+				};
+			};
+			buildConfigurationList = 323A1D401D637792001538F9 /* Build configuration list for PBXProject "BekaTheBulldog" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 323A1D3C1D637792001538F9;
+			productRefGroup = 323A1D461D637792001538F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				323A1D441D637792001538F9 /* BekaTheBulldog */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		323A1D431D637792001538F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				323A1D531D637792001538F9 /* LaunchScreen.storyboard in Resources */,
+				325133161D6D695D0046B6F2 /* GoogleService-Info.plist in Resources */,
+				323A1D501D637792001538F9 /* Assets.xcassets in Resources */,
+				323A1D4E1D637792001538F9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4B4568F055BF4518CA2B29F7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BekaTheBulldog/Pods-BekaTheBulldog-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F8FC2F8E5EF98AC518CB292 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BekaTheBulldog/Pods-BekaTheBulldog-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF9F0E1494E55F9BA3F413F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		323A1D411D637792001538F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32A40F181D661C0E000F8914 /* PageController.swift in Sources */,
+				323A1D5B1D656301001538F9 /* InteractiveStory.swift in Sources */,
+				323A1D4B1D637792001538F9 /* ViewController.swift in Sources */,
+				323A1D491D637792001538F9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		323A1D4C1D637792001538F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				323A1D4D1D637792001538F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		323A1D511D637792001538F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				323A1D521D637792001538F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		323A1D551D637792001538F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		323A1D561D637792001538F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		323A1D581D637792001538F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8943EED82186BCF60B364C1 /* Pods-BekaTheBulldog.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4NGU8NN8YK;
+				INFOPLIST_FILE = BekaTheBulldog/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bekathebulldog.bekathebulldog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		323A1D591D637792001538F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4547900ECE5F5FF044CB4F0 /* Pods-BekaTheBulldog.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4NGU8NN8YK;
+				INFOPLIST_FILE = BekaTheBulldog/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bekathebulldog.bekathebulldog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		323A1D401D637792001538F9 /* Build configuration list for PBXProject "BekaTheBulldog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				323A1D551D637792001538F9 /* Debug */,
+				323A1D561D637792001538F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		323A1D571D637792001538F9 /* Build configuration list for PBXNativeTarget "BekaTheBulldog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				323A1D581D637792001538F9 /* Debug */,
+				323A1D591D637792001538F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 323A1D3D1D637792001538F9 /* Project object */;
+}

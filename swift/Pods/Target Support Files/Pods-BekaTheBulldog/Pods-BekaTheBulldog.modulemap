@@ -1,0 +1,6 @@
+framework module Pods_BekaTheBulldog {
+  umbrella header "Pods-BekaTheBulldog-umbrella.h"
+
+  export *
+  module * { export * }
+}
